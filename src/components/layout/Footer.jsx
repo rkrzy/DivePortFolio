@@ -12,15 +12,15 @@ export function Footer() {
         </p>
 
         <ul className="flex flex-wrap gap-4">
-          {team.socials.map((social) => (
-            <li key={social.label}>
+          {team.links.map((link) => (
+            <li key={link.label}>
               <a
-                href={social.href}
+                href={link.href}
                 target="_blank"
                 rel="noreferrer"
                 className="text-sm font-medium text-muted transition-colors hover:text-accent"
               >
-                {social.label}
+                {link.label}
               </a>
             </li>
           ))}

@@ -1,10 +1,8 @@
-import { members, team } from '@/data/team.js'
-
-const roleColors = members.map((m) => m.accent)
+import { team } from '@/data/team.js'
 
 export function TeamHero() {
   return (
-    <section className="relative overflow-hidden border-b border-border/80 py-24 sm:py-32">
+    <section id="team" className="relative overflow-hidden border-b border-border/80 py-24 sm:py-32">
       <div className="pointer-events-none absolute -top-24 -left-24 h-72 w-72 rounded-full bg-sky/20 blur-3xl" />
       <div className="pointer-events-none absolute top-10 right-0 h-64 w-64 rounded-full bg-violet/20 blur-3xl" />
       <div className="pointer-events-none absolute bottom-0 left-1/3 h-56 w-56 rounded-full bg-accent/15 blur-3xl" />
@@ -22,7 +20,11 @@ export function TeamHero() {
         </h1>
 
         <p className="mt-6 max-w-2xl text-lg leading-relaxed text-muted sm:text-xl">
-          {team.tagline}
+          {team.headline}
+        </p>
+
+        <p className="mt-4 max-w-3xl text-base leading-relaxed text-muted">
+          {team.description}
         </p>
 
         <p className="mt-5 inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm shadow-sm ring-1 ring-border">
@@ -30,17 +32,20 @@ export function TeamHero() {
           <span className="font-medium text-foreground">{team.project}</span>
         </p>
 
-        <ul className="mt-12 flex flex-wrap gap-3">
-          {members.map((member, i) => (
-            <li
-              key={member.id}
-              className="rounded-full px-4 py-2 text-sm font-medium text-white shadow-md"
-              style={{ backgroundColor: roleColors[i] }}
-            >
-              {member.role}
-            </li>
-          ))}
-        </ul>
+        <div className="mt-12 grid gap-4 sm:grid-cols-3">
+          <div className="rounded-3xl border border-border bg-white/80 p-5 shadow-sm backdrop-blur">
+            <p className="text-3xl font-bold text-accent">4</p>
+            <p className="mt-2 text-sm text-muted">서로 다른 역할의 팀원</p>
+          </div>
+          <div className="rounded-3xl border border-border bg-white/80 p-5 shadow-sm backdrop-blur">
+            <p className="text-3xl font-bold text-sky">1</p>
+            <p className="mt-2 text-sm text-muted">하나의 해커톤 프로젝트</p>
+          </div>
+          <div className="rounded-3xl border border-border bg-white/80 p-5 shadow-sm backdrop-blur">
+            <p className="text-3xl font-bold text-violet">MVP</p>
+            <p className="mt-2 text-sm text-muted">빠른 검증과 실행 중심</p>
+          </div>
+        </div>
       </div>
     </section>
   )

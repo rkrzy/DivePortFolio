@@ -4,12 +4,12 @@ import { giyoung } from '@/data/members/giyoung.js'
 import { hoyoung } from '@/data/members/hoyoung.js'
 
 export const team = {
-  name: 'Dive',
-  headline: '해커톤에서 빠르게 문제를 정의하고, 실행 가능한 프로덕트로 검증하는 팀입니다.',
+  name: '컴퓨터가 멈췄ㅇ',
+  headline: '컴퓨터는 멈춰도, 아이디어는 멈추지 않는 팀입니다.',
   description:
-    '각자 다른 강점을 가진 4명이 기획, 디자인, 프론트엔드, 백엔드를 함께 맡아 아이디어를 실제 서비스 형태로 구현합니다.',
-  hackathon: '2026 Summer Hackathon',
-  project: '함께 만드는 다음 프로젝트',
+    '각자 다른 강점을 가진 4명이 문제 정의부터 구현, 발표까지 함께 움직이며\n최선의 결과물을 만듭니다.',
+  hackathon: 'Hackathon Portfolio',
+  project: '4명의 역할과 프로젝트 경험을 담은 팀 포트폴리오',
   email: 'dive-team@example.com',
   links: [
     { label: 'Team GitHub', href: 'https://github.com' },

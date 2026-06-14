@@ -1,4 +1,4 @@
-# Team Dive Portfolio
+# 컴퓨터가 멈췄ㅇ Portfolio
 
 React + Vite + JavaScript 기반 **해커톤 팀 포트폴리오** 프로젝트입니다. 한 페이지에서 팀 소개와 4명의 프로필을 모두 보여줍니다.
 

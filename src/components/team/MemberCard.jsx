@@ -41,7 +41,7 @@ export function MemberCard({ member, index }) {
             {member.projectRole}
           </p>
           <h3 className="mt-2 text-2xl font-bold text-foreground sm:text-3xl">{member.name}</h3>
-          <p className="mt-3 text-base leading-relaxed text-muted">{member.intro}</p>
+          <p className="mt-3 whitespace-pre-line text-base leading-relaxed text-muted">{member.intro}</p>
         </div>
       </div>
 

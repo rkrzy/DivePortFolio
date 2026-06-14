@@ -1,7 +1,7 @@
 import { taeseong } from '@/data/members/taeseong.js'
 import { junsik } from '@/data/members/junsik.js'
 import { minji } from '@/data/members/minji.js'
-import { soyeon } from '@/data/members/soyeon.js'
+import { hoyoung } from '@/data/members/hoyoung.js'
 
 export const team = {
   name: 'Dive',
@@ -17,4 +17,4 @@ export const team = {
   ],
 }
 
-export const members = [junsik, minji, taeseong, soyeon]
+export const members = [junsik, minji, taeseong, hoyoung]

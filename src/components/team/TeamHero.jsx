@@ -15,7 +15,7 @@ export function TeamHero() {
             {team.hackathon}
           </span>
 
-          <h1 className="mt-8 max-w-4xl text-4xl font-black tracking-tight text-foreground sm:text-6xl">
+          <h1 className="mt-8 max-w-4xl text-4xl font-black tracking-tight text-foreground sm:text-5xl">
             Team{' '}
             <span className="bg-gradient-to-r from-accent via-sky to-violet bg-clip-text text-transparent">
               {team.name}

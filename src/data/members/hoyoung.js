@@ -2,7 +2,7 @@ export const hoyoung = {
   id: 'hoyoung',
   name: '장호영',
   projectRole: 'Frontend Developer',
-  intro: '"쉽고 간단하게"\n우리의 의도가 온전히 전달될 수 있는 화면을\n디자인합니다.',
+  intro: '"우리의 의도가 온전히 전달될 수 있는 화면을 디자인합니다.',
   avatar: '/members/hoyoung.jpeg',
   accent: '#f59e0b',
   links: [

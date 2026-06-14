@@ -7,7 +7,7 @@ export const taeseong = {
   accent: '#ec4899',
   links: [
     { label: 'GitHub', href: 'https://github.com/taessong' },
-    //{ label: 'Portfolio', href: 'https://example.com' },
+    { label: 'Email', href: 'mailto:tskim4065@gmail.com' }
   ],
   featuredProjects: [
     {

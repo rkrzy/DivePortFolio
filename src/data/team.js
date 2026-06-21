@@ -10,7 +10,7 @@ export const team = {
     '각자 다른 강점을 가진 4명이 문제 정의부터 구현, 발표까지 함께 움직이며\n최선의 결과물을 만듭니다.',
   hackathon: 'Hackathon Portfolio',
   project: '4명의 역할과 프로젝트 경험을 담은 팀 포트폴리오',
-  email: 'dive-team@example.com',
+  email: 'wnstlr9891@example.com',
   links: [
     { label: 'Team GitHub', href: 'https://github.com' },
     { label: 'Team Notion', href: 'https://notion.so' },

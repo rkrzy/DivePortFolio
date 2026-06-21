@@ -1,8 +1,8 @@
 export const taeseong = {
   id: 'taeseong',
   name: '김태성',
-  projectRole: 'Full-stack Developer',
-  intro: '기획부터 배포까지 연결하며 팀이 빠르게 MVP를 완성할 수 있도록 돕습니다.',
+  projectRole: 'Frontend Developer',
+  intro: '데이터베이스 설계부터 프론트엔드 구현까지 완성도 높은 서비스를 구현합니다.',
   avatar: '/members/taeseong.jpeg',
   accent: '#ec4899',
   links: [

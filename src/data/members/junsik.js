@@ -2,7 +2,7 @@ export const junsik = {
   id: 'junsik',
   name: '임준식',
   projectRole: 'Backend Developer',
-  intro: 'React와 UI 구현을 맡아 사용자가 바로 이해할 수 있는 화면 경험을 만듭니다.',
+  intro: '안정적이고 확장 가능한 시스템 아키텍처를 직접 설계하고 구축합니다.',
   avatar: '/members/junsik.jpeg',
   accent: '#0d9488',
   links: [
